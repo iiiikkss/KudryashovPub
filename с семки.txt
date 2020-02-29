@@ -1,0 +1,7 @@
+Select *
+from students st
+inner join students_hobbies sh
+on st.id = sh.student_id
+inner join hobbies h
+on sh.hobby_id = h.id
+
